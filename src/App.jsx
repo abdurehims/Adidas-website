@@ -1,10 +1,14 @@
 
 import './App.css'
-import  Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Hhero from './components/hhero';
 
 function App() {
   return (
-    <Navbar/>
+    <>
+      <Navbar />
+      <Hhero />
+    </>
   )
 }
 
