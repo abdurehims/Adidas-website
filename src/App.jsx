@@ -1,13 +1,15 @@
 
 import './App.css'
 import Navbar from './components/Navbar';
-import Hhero from './components/hhero';
+import Hero from './components/Hero';
+import AdiWeek from './components/adiWeek';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hhero />
+      <Hero />
+      <AdiWeek />
     </>
   )
 }

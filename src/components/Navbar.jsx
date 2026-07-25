@@ -1,15 +1,13 @@
 import Logo from "../assets/images/adidasLogo.jpg";
-import search from "../assets/images/searchh.png";
+import search from "../assets/images/search.png";
 import user from "../assets/images/user.png";
-import favorite from "../assets/images/favorite.jpg";
+import favorite from "../assets/images/like.png";
 import cart from "../assets/images/cart.jpg";
-// import menu from "../assets/images/menu.png"; // Hamburger icon
+
 
 export default function Navbar() {
   return (
     <>
-      {/* Top Black Bar */}
-      {/* <div className="w-full h-8 bg-black"></div> */}
 
       <nav className="w-full bg-white border-b border-gray-200">
         <div className="max-w-[1400px] mx-auto h-20 px-8 flex items-center justify-between">
@@ -62,7 +60,7 @@ export default function Navbar() {
               <img
                 src={search}
                 alt="Search"
-                className="w-8 ml-2 cursor-pointer"
+                className="w-5 ml-2 cursor-pointer"
               />
             </div>
 
@@ -75,7 +73,7 @@ export default function Navbar() {
             <img
               src={favorite}
               alt="Favorite"
-              className="w-6 cursor-pointer hover:scale-110 duration-300"
+              className="w-6 h-6 cursor-pointer hover:scale-110 duration-300"
             />
 
             <img
