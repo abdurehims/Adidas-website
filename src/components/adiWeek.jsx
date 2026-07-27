@@ -53,7 +53,7 @@ export default function AdiWeek() {
         </div>
       </div>
 
-      <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+      <div className="flex gap-7 overflow-x-auto pb-4 scrollbar-hide">
         {products.map((product) => (
           <div key={product.id} className="min-w-[220px] flex-shrink-0">
             <div className="relative bg-[#f0f0eb] p-4 flex flex-col items-center">
