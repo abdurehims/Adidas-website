@@ -1,1 +1,19 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@keyframes blackToBlue {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: black;
+  }
+
+  100% {
+    color: #eef60e;
+  }
+}
+
+.hover-black-blue:hover {
+  animation: blackToBlue 0.4s forwards;
+}

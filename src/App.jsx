@@ -2,14 +2,16 @@
 import './App.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import AdiWeek from './components/adiWeek';
+import Products from './components/Products';
+import Outfit from './components/Outfit';
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <AdiWeek />
+      <Products title={"adiWeek"} />
+      <Outfit />
     </>
   )
 }

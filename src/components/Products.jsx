@@ -37,12 +37,12 @@ const products = [
    }
 ];
 
-export default function AdiWeek() {
+export default function AdiWeek({ title }) {
   return (
     <section className="px-6 md:px-12 py-8 bg-white">
 
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-xl font-bold text-black">adiWeek</h2>
+        <h2 className="text-xl font-bold text-black">{title}</h2>
         <div className="flex items-center gap-2">
           <button className="w-8 h-8 border border-gray-400 flex items-center justify-center text-gray-600 hover:bg-gray-100">
             &#8249;

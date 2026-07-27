@@ -48,14 +48,16 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="mt-12 flex flex-col gap-8 mb-10">
+          <div className="mt-10 flex flex-col gap-8 mb-10">
 
-            <button className="flex items-center gap-5 text-white text-2xl md:text-3xl font-bold hover:translate-x-2 transition">
-              <img src={arrow} alt="arrow" className="w-12" />
+            <button className="flex items-center gap-5  text-2xl md:text-3xl 
+            hover-black-blue text-white text-2xl font-bold">
+              <img src={arrow} alt="arrow" className="w-12 " />
               SEE MORE
             </button>
 
-            <button className="flex items-center gap-5 text-white text-2xl md:text-3xl font-bold hover:translate-x-2 transition">
+            <button className="flex items-center gap-5  text-2xl md:text-3xl 
+            hover-black-blue text-white text-2xl font-bold">
               <img src={arrow} alt="arrow" className="w-12" />
               BUY NOW
             </button>
