@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import Outfit from './components/Outfit';
+import History from './components/History';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Products title={"adiWeek"} />
       <Outfit />
+      <History />
     </>
   )
 }
