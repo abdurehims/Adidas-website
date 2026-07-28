@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Outfit from './components/Outfit';
 import History from './components/History';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Outfit />
       <History />
       <Gallery />
+      <Footer />
     </>
   )
 }
