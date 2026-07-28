@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Products from './components/Products';
 import Outfit from './components/Outfit';
 import History from './components/History';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Products title={"adiWeek"} />
       <Outfit />
       <History />
+      <Gallery />
     </>
   )
 }

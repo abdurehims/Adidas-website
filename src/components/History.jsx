@@ -10,7 +10,7 @@ const History = () => {
       </h1>
 
   
-      <div className="relative w-full h-[400px]">
+      <div className="relative w-full h-[500px]">
 
         <img
           src={sitPerson}
@@ -46,7 +46,7 @@ const History = () => {
 
         
           <div className="w-[49%] flex flex-col justify-between pr-10">
-            <p className="text-white text-[25px] leading-[1.6] text-center pl-2">
+            <p className="text-white text-[25px] leading-[1.6] text-center pl-2 pb-20">
               Whether you're a runner, a basketball player,
               a soccer player, or someone who loves to
               train, you'll find a home with us. Our
@@ -54,7 +54,7 @@ const History = () => {
               no matter what your preferred form of
               exercise may be.
             </p>
-            <p className="text-white text-[22px] leading-[1.6] text-center pl-2">
+            <p className="text-white text-[22px] leading-[1.6] text-center pl-2 pb-40">
               We're not just present on the playing field,
               either. You'll find the three stripes at music
               festivals, on stages, and in the city streets.
